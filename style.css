@@ -1,0 +1,140 @@
+.myBody {
+  margin: 0px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  background: rgb(203, 202, 204);
+  background: linear-gradient(
+    180deg,
+    rgba(242, 242, 242, 1) 0%,
+    rgba(9, 9, 121, 1) 30%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.atf-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.h1 {
+  font-size: 50px;
+}
+
+.table {
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 30px;
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.p1 {
+  filter: drop-shadow(2px 4px 6px black);
+  color: blanchedalmond;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: x-large;
+  margin-top: -1em;
+}
+
+.googlemaps {
+  height: 200px;
+  width: 100%;
+}
+
+.menu {
+  position: absolute;
+  top: 16px;
+  right: 100px;
+}
+
+.menu a:hover {
+  color: rgb(203, 168, 26);
+  text-decoration: underline;
+}
+
+.menu a {
+  font-size: 17px;
+  filter: drop-shadow(2px 4px 6px black);
+  color: blanchedalmond;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.order-button{
+  color: black !important;
+  background-color: rgb(233, 196, 49);
+  padding: 5px;
+}
+
+.order-button:hover{
+  background-color: rgb(193, 159, 26)
+}
+
+.links {
+  color: rgb(1, 198, 237);
+  text-decoration: none;
+}
+
+.links:hover {
+  color: rgb(14, 121, 142);
+  text-decoration: underline;
+}
+
+.footer-link {
+  color: rgba(0, 212, 255, 1);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: rgb(0, 159, 190);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  filter: drop-shadow(2px 4px 6px black);
+  color: blanchedalmond;
+}
+
+.middle-container {
+  padding-left: 20px;
+}
+
+.bottom-container {
+  padding-left: 20px;
+}
+
+.footer-container {
+  padding: 50px 50px 50px 20px;
+  background-color: rgb(49, 47, 49);
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
